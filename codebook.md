@@ -1,4 +1,4 @@
-#Stydy design
+#Study design
 
 ##Raw Data Info
 

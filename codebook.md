@@ -18,17 +18,17 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ###Raw data files that are used to produced the final tidy data set
-* "features.txt"
-* "y_train.txt"
-* "subject_train.txt"
-* "X_train.txt"
-* "y_test.txt"
-* "subject_test.txt
-* "X_test.txt"
+* "features.txt" :List of all features
+* "y_train.txt" : Training labels
+* "subject_train.txt": Each row identifies the subject who performed the activity for each window sample.  
+* "X_train.txt" : Training set
+* "y_test.txt" : Training labels
+* "subject_test.txt : Each row identifies the subject who performed the activity for each window sample.  
+* "X_test.txt": Test set
 
 # Tidy set info 
 
-"SubjectCode": An identifier of the subject who carried out the experiment.
+"SubjectCode": identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 
 "Activity": A factor variable with 6 levels corrisponding in 6 different subject activities 
 1. WALKING

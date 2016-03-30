@@ -221,7 +221,7 @@ All the below variables are average values for each activity and each subject of
 
 # Instruction list
 
-Step1 -> Get the names of all raw dataset variables
+Step1 -> Get the names of all raw dataset variables/n
 Step2 -> Read the trainActivity and create a vector from the y_train.txt file 
 Step3 -> Read the trainsubjects from and create a vector from the subject_train.txt file
 Step4 -> read the Train Data Frame from X_train.txt file

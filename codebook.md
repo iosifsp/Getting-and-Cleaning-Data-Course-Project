@@ -221,21 +221,38 @@ All the below variables are average values for each activity and each subject of
 
 # Instruction list
 
-Step1 -> Get the names of all raw dataset variables\n
+Step1 -> Get the names of all raw dataset variables
+
 Step2 -> Read the trainActivity and create a vector from the y_train.txt file 
+
 Step3 -> Read the trainsubjects from and create a vector from the subject_train.txt file
+
 Step4 -> read the Train Data Frame from X_train.txt file
+
 Step5 -> Add to the Train Data Frame the Column Activity and add the values of the trainActivity Vector
+
 Step6 -> Add to the Train Data Frame the Column SubjectCode and add the values of the trainsubject vector
+
 Step7 -> Read the testsubjects from and create a vector from the subject_test.txt file
+
 Step8 -> read the Test Data Frame from X_test.txt file
+
 Step9 -> Add to the Test Data Frame the Column Activity and add the values of the testActivity Vector
+
 Step10 -> Add to the Test Data Frame the Column SubjectCode and add the values of the testsubject vector
+
 Step11 -> Add Train and Test Data Set to one DataSet
+
 Step12 -> create a newDataset with only the variables of mean and stantard deviation and mean Freqency 
+
 Step13 -> Transform Activity variable from character to factor
+
 Step14 -> relevel the Activity variable with the levels WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
+
 Step15 -> Substitute the "." with "_" in the names variable of the new dataset
+
 Step16 -> Melt the last dataset with id variables SubjectCode and Activity
+
 Step17 -> recast the molten dataset with id variables SubjectCode and Activity calculating the avarage values creating the final dataset
+
 Step18 -> save the final data set to MyTidyData.txt
